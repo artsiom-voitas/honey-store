@@ -194,8 +194,8 @@ a:active {
 .products {
     display: flex;
     justify-content: space-between;
-    margin-left: 177px;
-    margin-right: 177px;
+    max-width: 1146px;
+    margin: 0 auto;
 }
 
 .product {
@@ -255,7 +255,7 @@ footer {
 
 .footer-section {
     min-height: 137px;
-    width: 1144.39px;
+    max-width: 1144.39px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
