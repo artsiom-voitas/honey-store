@@ -85,21 +85,17 @@ a:active {
 }
 .background-buy-now {
     background: #000000;
-    border-color: #000000;
+    border: 2px solid #000000;
     margin-left: 78px;
     margin-right: 30px;
-}
-.background-buy-now a {
     text-decoration: none;
     color: #FFFFFF;
 }
 
-.background-learn-more {
-    border-color: #000000;
-    background: transparent;
-}
 
-.background-learn-more a {
+.background-learn-more {
+    border: 2px solid #000000;
+    background: transparent;
     text-decoration: none;
     color: #000000;
 }
@@ -159,9 +155,6 @@ a:active {
     padding: 15px 40px;
     background: #E68311;
     border: none;
-}
-
-.description-buttons a{
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -201,6 +194,7 @@ a:active {
 .product {
     background-image: url(../imgs/products-background.png);
     max-width: 558px;
+    min-height: 305px;
     margin-bottom: 130px;
     display: flex;
     flex-wrap: nowrap;
@@ -216,7 +210,6 @@ a:active {
     font-size: 28px;
     line-height: 140%;
     color: #000000;
-    padding-top: 45px;
     margin-bottom: 20px;
 }
 
@@ -235,9 +228,6 @@ a:active {
     margin-bottom: 39px;
     background: transparent;
     border: 1.5px solid #E68311;
-}
-
-.product-buy-button a {
     color: #E68311;
     text-decoration: none;
 }
